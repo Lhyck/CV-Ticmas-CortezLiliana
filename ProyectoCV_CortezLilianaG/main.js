@@ -23,7 +23,7 @@ function onClick(event) {
         .then((json) => {
             console.log(json);
             Swal.fire(
-                ' Su mensaje se ha enviado con exito ... ',
+                ' Gracias !! Su mensaje se ha enviado con exito ... ',
                 ' Estaremos en contacto a la brevedad '
 
             );
