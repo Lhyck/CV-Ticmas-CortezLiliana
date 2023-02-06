@@ -31,16 +31,17 @@ function onClick(event) {
 
         })
         .catch((err) => console.log(err));
-
-    function cleanForm() {
-        let formulario = document.getElementById('form1');
-        formulario.reset();
-    }
-
-    function redirectUrl() {
-        window.location.href = "http://127.0.0.1:5502/";
-    }
-
 }
+
+function cleanForm() {
+    let formulario = document.getElementById('form1');
+    formulario.reset();
+}
+
+function redirectUrl() {
+    window.location.href = "http://127.0.0.1:5502/";
+}
+
+
 let boton = document.getElementById("enviar");
 boton.addEventListener("click", onClick);
